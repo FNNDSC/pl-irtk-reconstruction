@@ -19,7 +19,7 @@ setup(
     python_requires  = '>=3.7',
     entry_points     = {
         'console_scripts': [
-            'cpl_reconstruction = irtkrecon.__main__:main'
+            'irtkrecon = irtkrecon.__main__:main'
             ]
         }
 )

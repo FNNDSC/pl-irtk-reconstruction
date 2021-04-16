@@ -9,4 +9,4 @@ WORKDIR /usr/local/src
 COPY . .
 RUN pip3 --no-cache-dir install .
 
-CMD ["irtk", "--help"]
+CMD ["irtkrecon", "--help"]
