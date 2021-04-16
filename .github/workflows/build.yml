@@ -7,7 +7,7 @@
 # - tagged commits are also uploaded to chrisstore.co
 #
 
-name: ci
+name: build
 
 on:
   push:
