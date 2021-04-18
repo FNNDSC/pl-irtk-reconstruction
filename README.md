@@ -6,7 +6,7 @@
 
 Fetal brain MRI reconstruction using IRTK reconstruction in a _ChRIS ds_ plugin wrapper.
 
-https://www.sciencedirect.com/science/article/pii/S1361841512000965
+https://pubmed.ncbi.nlm.nih.gov/22939612/
 
 # Usage
 
