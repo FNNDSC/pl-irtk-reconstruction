@@ -162,7 +162,7 @@ class IrtkRecon(ChrisApp):
         ]
 
         if options.debug:
-            cmd.append(options.debug)
+            cmd.append('-debug')
 
         logger.info(' '.join(cmd))
 
