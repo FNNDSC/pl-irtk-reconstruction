@@ -109,7 +109,7 @@ class IrtkRecon(ChrisApp):
         """
         Define the code to be run by this plugin app.
         """
-        input_pattern = path.join(options.inputdir, options.inputPathFilter)
+        input_pattern = path.join(path.abspath(options.inputdir), options.inputPathFilter)
         input_file_map = {}
         for filename in iglob(input_pattern):
             input_file_map[path.basename(filename)] = filename
