@@ -124,10 +124,14 @@ class IrtkRecon(ChrisApp):
         csv_filename = path.join(options.inputdir, options.csv)
         qa = []
 
-        # with open(csv_filename, 'r') as f:
-        #     print(list(csv.DictReader(f)), flush=True)
         with open(csv_filename, 'r') as f:
             for row in csv.DictReader(f):
+                if 'filename' not in row:
+                    logger.error('%s (a CSV file) does not contain the column "filename"'
+                                 '\nYou must run pl-fetal-brain-assessment before pl-irtk-reconstruction'
+                                 ' to create the correct CSV file.', csv_filename)
+                    sys.exit(1)
+
                 key = path.basename(row['filename'])
                 logger.info(key)
                 if key not in input_file_map:
