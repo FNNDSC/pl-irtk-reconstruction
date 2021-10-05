@@ -49,7 +49,7 @@ in/
 Command-line invocation:
 
 ```shell
-singularity exec docker://fnndsc/pl-irtk-reconstruction:1.0.2 irtkrecon \
+singularity exec docker://fnndsc/pl-irtk-reconstruction:1.0.3 irtkrecon \
   --inputPathFilter 'Best_images_crop/*.nii' --csv 'quality_assessment.csv' \
   --output recon.nii --debug incoming/ outgoing/
 ```
