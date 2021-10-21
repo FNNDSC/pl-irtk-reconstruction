@@ -6,7 +6,7 @@ with open(path.join(path.dirname(path.abspath(__file__)), 'README.md')) as f:
 
 setup(
     name             = 'irtkrecon',
-    version          = '1.0.3',
+    version          = '1.1.0',
     description      = 'Fetal brain MRI Reconstruction',
     long_description = readme,
     author           = 'FNNDSC',
