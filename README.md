@@ -8,6 +8,9 @@ Fetal brain MRI reconstruction using IRTK reconstruction in a _ChRIS ds_ plugin 
 
 https://pubmed.ncbi.nlm.nih.gov/22939612/
 
+> [!NOTE]
+> We recommend upgrading to [*NeSVoR*](https://github.com/FNNDSC/pl-NeSVoR-reconstruct)
+
 # Usage
 
 Quality assessment and inter-slice thickness should be defined by a .CSV file.
